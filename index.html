@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pomodoro CLock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+
+  <div class="container-fluid text-center"><br>
+      <h1 id="title">Pomodoro Clock</h1><br>
+      <div class="d-flex flex-row justify-content-center">
+        <div class="p-2">BREAK LENGTH</div>
+        <div class="p-2">SESSION LENGTH</div>
+      </div>
+      <div class="d-flex flex-row justify-content-center">
+        <button type="button" class="btn btn-outline-danger btn-sm pointer" id="menusBtime">--</button>
+        <div class="p-2" id="bTime">5</div>
+        <button type="button" class="btn btn-outline-success btn-sm pointer" id="plusBtime">+</button>
+        <div class="p-2"></div><div class="p-2"></div><div class="p-2"></div>
+        <button type="button" class="btn btn-outline-danger btn-sm pointer" id="menusStime">--</button>
+        <div class="p-2" id="sTime">25</div>
+        <button type="button" class="btn btn-outline-success btn-sm pointer" id="plusStime">+</button>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div id="clock" class="border border-danger rounded-circle pointer">
+          <div id="progress" class="rounded-circle"></div>
+          <div id="timer" class="rounded-circle"><br><span id="seOrBreak">Session</span><br><br><span id="time">25</span></div>
+         </div>
+      </div><br>
+      <div class="d-flex flex-row justify-content-center">
+          <button type="button" id="start" class="btn btn-outline-success">Start</button>
+          <div class="p-2"></div>
+          <button type="button" id="pause" class="btn btn-outline-warning">Pause</button>
+          <div class="p-2"></div>
+          <button type="button" id="reset" class="btn btn-outline-danger">Reset</button>
+      </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dfb01e1534.js"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>

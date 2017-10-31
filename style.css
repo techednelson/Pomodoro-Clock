@@ -1,0 +1,62 @@
+body {
+    background: #1C1D1E;
+    color: white;
+    font-family: sans-serif;
+}
+#clock {
+    margin-top: 1.5rem;
+    width: 10rem; 
+    height: 10rem;
+}
+#progress {
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    z-index: -1;
+}
+#timer {
+    width: 10rem; 
+    height: 10rem;
+    font-size: 1.5rem;
+}
+#title {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+.pointer {
+    cursor: pointer;
+}
+#start {
+    width: 5rem;
+}
+#pause {
+    width: 5rem;
+}
+#reset {
+    width: 5rem;
+}
+@media (min-width: 768px) {
+  #clock {
+      margin-top: 2.5rem;
+      width: 20rem; 
+      height: 20rem;
+  }
+  #progress {
+      height: 20rem;
+      width: 20rem;
+      position: absolute;
+      z-index: -1;
+  }
+  #timer {
+      width: 20rem; 
+      height: 20rem;
+      font-size: 2.5rem;
+  }
+  #title {
+      margin-top: 2rem;
+      font-size: 3rem;
+  }
+  .pointer {
+      cursor: pointer;
+  }
+}
